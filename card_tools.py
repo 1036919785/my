@@ -75,6 +75,8 @@ def search_card():
         if card_dict["name"] == find_name:
             print("找到了%s" % find_name)
             print(card_dict)
+            # TODO 找到后需要执行的操作
             break
+
     else:
         print("没有找到%s" % find_name)
